@@ -1,0 +1,180 @@
+body{
+    background-image: linear-gradient(to right, rgb(235, 205, 205), purple);
+    margin: 0;
+    padding: 0;
+}
+hr{
+    border-color: rgb(138, 20, 138);
+}
+
+.menu{
+    background-color: rgb(0, 0, 0, 0.7);
+    height: 70px;
+    margin-top: -30px;
+}
+
+.central{
+    display: block;
+    font-size: 30px;
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    color: seashell;
+}
+
+.titulo{
+   font-size: 30px;
+   text-align: center;
+   font-family: 'Fredoka One', cursive;
+    font-size: 60px;
+    color: seashell;
+}
+
+form{
+    display: block;
+    width: 600px;
+    height: 720px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(138, 20, 138);
+    border-radius: 10px;
+    border: solid rgb(39, 34, 34) 1px;
+}
+
+label{
+    font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+    color: white;
+    margin-left: 55px;
+}
+
+.nome {
+    display: block;
+    width: 80%;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    border-color: white;
+}
+
+.email {
+    display: block;
+    width: 80%;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border-color: white;
+}
+
+.idade{
+    display: block;
+    width: 80%;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border-color: white;
+}
+
+.selecao{
+    display: block;
+    width: 82%;
+    height: 38px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    margin-top: -18px;
+}
+
+.chek{
+    font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+    color: white;
+    margin-left: 55px;
+}
+
+.dom{
+    margin-left: 177px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+    color: white;
+}
+
+.nivel{
+    display: flex;
+    align-items: center;
+    margin-left: 110px; 
+    
+}
+.olac{
+    border-radius: 50px;
+    color: violet;
+}
+.estilo{
+    font-family: 'Fredoka One', cursive;
+    color: white;
+    padding: 10px;
+}
+
+.fale{
+    margin-left: 203px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+    color: white;
+}
+
+.texto{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    border-color: white;
+    font-family: 'Fredoka One', cursive;
+    color: rgb(138, 20, 138);
+}
+
+.botao{
+    display: block;
+    width: 80%;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border-color: white;
+    font-family: 'Fredoka One', cursive;
+    color: rgb(27, 24, 27);
+    background-color: rgb(235, 205, 205);
+    cursor:pointer;
+}
+
+::-webkit-input-placeholder {
+    color: rgb(138, 20, 138);
+    font-family: 'Fredoka One', cursive;
+ }
+
+ .logo{
+     max-width: 50px;
+     float: left;
+     margin-left: 10px;
+ }
+ 
+ footer p{
+    font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+ }
+
+ footer{
+    background-color: rgb(0, 0, 0, 0.7);
+    height: 50px;
+ }
+
+ .select .selecao{
+     color: rgb(138, 20, 138);
+     font-family:'Fredoka One', cursive;
+     cursor: pointer;
+     
+    }

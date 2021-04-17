@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+<script src="../js/java.js"></script>
+    <title>Formulário de Pesquisa</title>
+</head>
+<body>
+    <header>
+    <div class="menu">
+        <div class="central">
+        <p>Central de pesquisa</p>
+        <hr>
+        </div>
+    </div>
+    
+    </header>
+    
+<main>
+    <div class="titulo">
+        <p>Formulário</p>
+        </div>
+
+    <form method="SET">
+        <div>
+            <label for="name">Nome</label>
+            <input class="nome" type="text">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email</label>
+            <input class="email" type="email" name="email">
+        </div>
+        <br>
+        <div>
+            <label for="number">Idade</label>
+            <input class="idade" type="number" min="8" max="99">
+        </div>
+        <div class="select">
+            <p class="chek">Linguagem</p>
+            <select class="selecao" name="Escolha uma opção" id="">
+                <option disabled selected value>Selecione</option>
+                <option value="Javascript">Javascript</option>
+                <option value="Ruby">Ruby</option>
+                <option value="C#">C#</option>
+                <option value="C++">C++</option>
+                <option value="Python">Python</option>
+            </select> 
+        </div>
+        
+        <div class="ajuste">
+            <div>
+                 <p class="dom">Domínio da linguagem</p> 
+            </div>
+        <div class="nivel">
+            <input class="olac" type="radio" name="gender" value="Basico"><p class="estilo">Básico</p><br>
+            <input class="olac" type="radio" name="gender" value="Intermediario"> <p class="estilo">Intermediário</p><br>
+            <input class="olac" type="radio" name="gender" value="Avançado"> <p class="estilo">Avançado</p>
+        </div>
+        </div>
+        <div>
+            <p class="fale">Fale sobre você</p>
+            <textarea class="texto" name="comentario" placeholder="Escreva sobre você..." cols="70" rows="6"></textarea>
+            <br>
+            <br>
+            <br>
+            <input onmouseover="onOver(this)" onmouseout="onOut(this)" class="botao" type="submit" value="ENVIAR">
+        </div>
+    </form>
+</main>
+
+<footer>
+    <img class="logo" src="../image/oculos.png" alt="logo">
+    <p>Developer of the page Bruno Ruivo</p>
+</footer>
+    
+</body>
+</html>
